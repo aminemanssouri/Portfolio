@@ -25,8 +25,8 @@ const Photo = () => {
             transition:{delay:2.4,duration:0.5,ease:"easeInOut"},
         }}
         className="w-[300px] h-[300px] xl:w-[500px] xl:h-[500px]  absolute  ">
-            <Image src="/assets/the_best_one.png" priority alt="" quality={50} fill 
-            className="object-contain"/>
+           {/**<Image src="" priority alt="" quality={50} fill 
+            className="object-contain"/> */} 
         </motion.div>
 
         {/* circle*/}
