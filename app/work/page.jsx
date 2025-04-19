@@ -23,21 +23,31 @@ const projects =[
     num:'01',
     category:'fullstack',
     tittle:'project 1',
-    description:"A Car Rent Project that made By Me ,End to End Project",
-    stack:[{name:"Html5"},{name:"Css3"},{name:"Javascript"},{name:"Laravel"},{name:"Bootstrap"}],
+    description:"Prestige Motors is a premium car rental platform that allows users to book luxury vehicles with ease. It features a sleek interface, real-time availability, and secure payment options.",
+    stack:[{name:"Html5"},{name:"TailwindCss"},{name:"Javascript"},{name:"React"},{name:"Asp.Net Core"},{name:"SQL Server"}],
     image:'/assets/work/thumb1.png',
     live:"",
-    github:"https://github.com/ismailbouaich/location_voitures"
+    github:"https://github.com/aminemanssouri/PM"
   },
   {
     num:'02',
-    category:'fullstack',
+    category:'API',
     tittle:'project 2',
-    description:"A E-commerce Web Site  that made By Me ,End to End Project",
-    stack:[{name:"Laravel"},{name:"LiveWire"},{name:"Html5"},{name:"Css3"},{name:"ReactJs"},{name:"Javascript"},{name:"TailwindCss"},{name:"Redux"}],
+    description:"A RESTful API built with the MERN stack to manage real estate listings, allowing users to create, read, update, and delete property data with secure MongoDB storage and Express routing.",
+    stack:[{name:"REACT"},{name:"Postman"},{name:"Rest API"},{name:"Express"},{name:"Node"},{name:"Javascript"},{name:"TailwindCss"},{name:"Mangodb"}],
     image:'/assets/work/thumb3.png',
     live:"",
-    github:"https://github.com/ismailbouaich/e-comRL"
+    github:"https://github.com/aminemanssouri/Ejar"
+  },
+  {
+    num:'03',
+    category:'fullstack desktop App',
+    tittle:'project 3',
+    description:"A desktop-based License Management System developed using .NET and Windows Forms, connected to a SQL Server database to handle license creation, tracking, and expiration management for software or services.",
+    stack:[{name:".NET"},{name:"Windows Form"},{name:" SQL Server"},{name:"ADO.NET"},{name:"C#"}],
+    image:'/assets/work/thumb2.png',
+    live:"",
+    github:"https://github.com/aminemanssouri/Ejar"
   },
 ]
 

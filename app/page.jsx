@@ -21,7 +21,7 @@ return(
           </span>
           <h1 className="h1 text-black/80">Hello I'm <br />
            <span className="text-accent">
-           Ismail Bouaichi
+           Amine Manssouri
             </span>
             </h1>
 

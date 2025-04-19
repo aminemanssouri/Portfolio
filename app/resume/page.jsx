@@ -1,11 +1,12 @@
 "use client";
 
 import { Tabs , TabsContent,TabsList,TabsTrigger} from "@/components/ui/tabs";
-import {
-  FaCss3,FaReact,FaLaravel,FaJs,FaHtml5
-} from "react-icons/fa"
+import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaGit, FaGithub } from 'react-icons/fa';
+import { SiMongodb, SiExpress, SiDotnet, SiPostman, SiVisualstudio, SiMysql, SiCsharp } from 'react-icons/si';
+import { DiVisualstudio, DiSqllite } from 'react-icons/di';
+import { SiCplusplus } from 'react-icons/si';
+import { TbBrandCpp } from 'react-icons/tb';
 
-import {SiTailwindcss,SiCsharp,SiMysql} from "react-icons/si"
 
 import { Tooltip,TooltipContent,TooltipProvider,TooltipTrigger} from "@/components/ui/tooltip";
 
@@ -15,11 +16,11 @@ import { color, motion } from "framer-motion";
 
 const about={
   title:"About me",
-  description:"I am Ismail Bouaichi, 22 years old. I am a specialized technician in software development. Although I don't have extensive experience, I am passionate about the field of technology and I am ready to learn and fully invest myself in all the opportunities that come my way.",
+  description:"I am Amine Manssouri, 22 years old. I am a specialized technician in software development.I have experience software development, I am passionate about the field of technology and I am ready to learn and fully invest myself in all the opportunities that come my way.",
   info:[
     {
       fieldName:"Name",
-      fieldValue:"Ismail Bouaichi"
+      fieldValue:"Amine Manssouri"
 
     },
     {
@@ -29,12 +30,12 @@ const about={
     },
     {
       fieldName:"Email",
-      fieldValue:"Ismailbouaichi10@gmail.com"
+      fieldValue:"aminemanssouri100@gmail.com"
 
     },
     {
       fieldName:"Phone",
-      fieldValue:"(+212)-631-19-23-23"
+      fieldValue:"(+212)-691560484"
 
     },
 
@@ -52,12 +53,12 @@ const exp={
       duration:"1 month"
     },
     {
-      company:"smart influencer",
-      position:"full stack",
-      duration:"40 days"
+      company:"E-Commerce Project",
+      position:"Open Source Contributions",
+      duration:"2 month"
     },
       {
-      company:"mandi Tech Info",
+      company:"MAX LV SAS",
       position:"full stack",
       duration:"6 months"
     },
@@ -71,18 +72,21 @@ const education={
   description:"This Is My Education Path",
   items:[
     {
-      isntitution:"OFPPT",
-      degree:"specialized technician in software development",
-      duration:" 2020-2023"
+      isntitution:"Ibn Sina High School",
+      degree:"Bac Pc",
+      duration:" 2019"
+    },
+    {
+      isntitution:"FSSM",
+      degree:"Associate Degree in Physics and Computer Science (Physique-Info)",
+      duration:" 2019-2022"
     },
 
     {
-      isntitution:"Bac Pc",
-      degree:"Sahnone High School",
-      duration:" 2020"
-    },
-  
-
+      isntitution:"ALX School (Holberton) ",
+      degree:"Certification Software Engineering  Backend Track",
+      duration:" 2022-2024"
+    }
   ]
 }
 
@@ -91,47 +95,85 @@ const skills={
   description:"This My Skills that ive Earned Around The Years",
   skillList:[
     {
-      icon: <FaHtml5/>,
-      name:'html 5',
-      color:'#e44d26'
+      icon: <FaHtml5 />,
+      name: 'HTML5',
+      color: '#e44d26',
     },
     {
-      icon: <FaCss3/>,
-      name:'css 3',
-      color:'#264de4'
+      icon: <FaCss3 />,
+      name: 'CSS3',
+      color: '#264de4',
     },
     {
-      icon: <FaJs/>,
-      name:'javascript',
-      color:'#f7df1e'
+      icon: <SiDotnet />,
+      name: '.NET Desktop',
+      color: '#512bd4',
     },
     {
-      icon: <FaReact/>,
-      name:'react.js',
-      color:'#61dafb'
+      icon: <SiDotnet />,
+      name: 'ASP.NET Core',
+      color: '#512bd4',
     },
     {
-      icon: <FaLaravel/>,
-      name:'laravel',
-      color:'#ff2d20'
+      icon: <SiMongodb />,
+      name: 'MongoDB',
+      color: '#47A248',
     },
     {
-      icon: <SiMysql/>,
-      name:'sql',
-      color:'#00618a'
+      icon: <SiExpress />,
+      name: 'Express.js',
+      color: '#000000',
     },
     {
-      icon: <SiTailwindcss/>,
-      name:'tailwind.css',
-      color:'#43a8b2'
+      icon: <FaReact />,
+      name: 'React.js',
+      color: '#61dafb',
     },
-
     {
-      icon: <SiCsharp/>,
-      name:'csharp',
-      color:'#a179dc'
+      icon: <FaNodeJs />,
+      name: 'Node.js',
+      color: '#68A063',
     },
-  
+    {
+      icon: <SiCplusplus />,
+      name: 'C++',
+      color: '#00599C',
+    },
+    {
+      icon: <SiCsharp />,
+      name: 'C#',
+      color: '#178600',
+    },
+    {
+      icon: <SiMysql />,
+      name: 'MySQL',
+      color: '#00758F',
+    },
+    {
+      icon: <DiSqllite />,
+      name: 'SQL Server',
+      color: '#CC2927',
+    },
+    {
+      icon: <FaGit />,
+      name: 'Git',
+      color: '#f34f29',
+    },
+    {
+      icon: <FaGithub />,
+      name: 'GitHub',
+      color: '#000000',
+    },
+    {
+      icon: <SiPostman />,
+      name: 'Postman',
+      color: '#ff6c37',
+    },
+    {
+      icon: <SiVisualstudio />,
+      name: 'Visual Studio',
+      color: '#5C2D91',
+    },
   ]
 }
 const Resume = () => {

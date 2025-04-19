@@ -13,12 +13,12 @@ const info=[
   {
     icon:<FaPhoneAlt/>,
     title:"Phone",
-    description:"(+212) 631 192 323"
+    description:"(+212) 691560484"
   },
   {
     icon:<FaEnvelope/>,
     title:"Email",
-    description:"ismailbouaichi10@gmail.com"
+    description:"aminemanssouri100@gmail.com"
   },
   {
     icon:<FaMapMarkedAlt/>,

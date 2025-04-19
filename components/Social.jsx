@@ -5,16 +5,16 @@ import {FaFacebook, FaGithub, FaLinkedinIn, FaTwitter,} from "react-icons/fa"
 
 const socials=[
     {
-    icon:<FaGithub/>,path:'https://github.com/ismailbouaich'
+    icon:<FaGithub/>,path:'https://github.com/aminemanssouri'
         },
         {
-            icon:<FaFacebook/>,path:'https://www.facebook.com/ismail.bouaichi/'
+            icon:<FaFacebook/>,path:'https://www.facebook.com/Amine Kech/'
                 },
                 {
-                    icon:<FaLinkedinIn/>,path:'https://www.linkedin.com/in/ismail-bouaichi-971714291/'
+                    icon:<FaLinkedinIn/>,path:'https://www.linkedin.com/in/amine-manssouri-262497244/'
                         },
                         {
-                            icon:<FaTwitter/>,path:'https://x.com/Ismail62331676'
+                            icon:<FaTwitter/>,path:'https://x.com/amineManssouri2'
                                 },
 
 ];

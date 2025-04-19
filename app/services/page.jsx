@@ -25,7 +25,7 @@ const services=[
   {
     num:'03',
     title:'Backend Development',
-    description:'Building robust server-side applications with Laravel and SQL databases.',
+    description:'Building robust server-side applications with Asp.Net and Express.js and SQL databases.',
     href:""
   },
   {
