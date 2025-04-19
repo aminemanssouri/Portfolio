@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
-          <form method='POST' action="https://getform.io/f/c158a179-030a-4264-8097-aa9837417199" className="flex flex-col gap-6 bg-transparent rounded-xl p-10 border border-accent">
+          <form method='POST' action="https://getform.io/f/awnqznlb" className="flex flex-col gap-6 bg-transparent rounded-xl p-10 border border-accent">
               <h3 className="text-4xl text-accent">
                 Let's Work Together
               </h3>
